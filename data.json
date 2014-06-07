@@ -87,7 +87,7 @@
     {"type": "FULL",   "bpm":null,  "artist": "Vassline", "title": "Dawn of The Apocalypse", "difficulties": "S15 D21"},
     {"type": "FULL",   "bpm": 126,  "artist": "2NE1", "title": "Fire", "difficulties": "S14"},
     {"type": "FULL",   "bpm": 161,  "artist": "Kara", "title": "Wanna", "difficulties": "S16"},
-    {"type": "REMIX",  "bpm":null,  "artist": "msgoon","title": "PUMP IT UP with YOU", "difficulties": "S17 D17"}, // FULL ?
+    {"type": "REMIX",  "bpm":null,  "artist": "msgoon","title": "PUMP IT UP with YOU", "difficulties": "S17 D17"},
     {"type": "SHORT",  "bpm": 130,  "artist": "Banya", "title": "Final Audition 2", "difficulties": "S16 D17"},
     {"type": "SHORT",  "bpm": 130.5,"artist": "Banya", "title": "Final Audition 3", "difficulties": "S17 D16"},
     {"type": "SHORT",  "bpm": 170,  "artist": "YAHPP", "title": "Final Audition EP. 2-X", "difficulties": "S20 D19"},
