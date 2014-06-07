@@ -1,0 +1,25 @@
+<HTML>
+	
+	<head>
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.css" >
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.min.js" > </script>
+		<script src="scripts/sorter.js" > </script>
+	</head>
+	
+	<body ng-app = "piuSorter">
+		<div class="container" ng-controller = "songListCont as list">
+			<h1>{{"This is my fabulous song sorter!"}}</h1>
+			<div class="row">
+				<div>BPM: <input ng-model="search.bpm"></div>
+				<div>Difficulty: <input ng-model="search.difficulties"></div>
+			</div>
+			<div class="row" ng-repeat = "song in list.songs | filter:search:strict">
+				<div class="col-md-1">{{song.type}}</div>
+				<div class="col-md-1">{{song.bpm}}</div>
+				<div class="col-md-3">{{song.artist}}</div>
+				<div class="col-md-3">{{song.title}}</div>
+				<div class="col-md-4">{{song.difficulties}}</div>
+			</div>
+		</div>
+	</body>
+</HTML>
