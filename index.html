@@ -13,7 +13,7 @@
 				<div>BPM: <input ng-model="search.bpm"></div>
 				<div>Difficulty: <input ng-model="search.difficulties"></div>
 			</div>
-			<div class="row" ng-repeat = "song in listCtr.list.songs | filter:search:strict">
+			<div class="row" ng-repeat = "song in listCtr.songs | filter:search:strict">
 				<div class="col-md-1">{{song.type}}</div>
 				<div class="col-md-1">{{song.bpm}}</div>
 				<div class="col-md-3">{{song.artist}}</div>
