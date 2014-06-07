@@ -10,7 +10,20 @@
 		<div class="container" ng-controller = "songListCont as listCtr">
 			<h1>{{"This is my fabulous song sorter!"}}</h1>
 			<div class="row">
-				<div>Version: <input ng-model="search.version"></div>
+				<div>Version: <select ng-model="search.version">
+								<option disabled>Any</option>
+								<option value="Fiesta EX">Fiesta EX</option>
+								<option value="Fiesta">Fiesta</option>
+								<option value="NXA">NXA</option>
+								<option value="NX/NX2">NX/NX2</option>
+								<option value="EXCEED/ZERO">EXCEED/ZERO</option>
+								<option value="REBIRTH/PREX">REBIRTH/PREX</option>
+								<option value="S.E/EXTRA">S.E/EXTRA</option>
+								<option value="REBIRTH/PREX">REBIRTH/PREX</option>
+								<option value="1ST/3RD">1ST/3RD</option>
+								<option value="UNKNOWN">UNKNOWN</option>
+							  </select>
+				</div>
 				<div>BPM: <input ng-model="search.bpm"></div>
 				<div>Difficulty: <input ng-model="search.difficulties"></div>
 			</div>
