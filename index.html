@@ -15,12 +15,12 @@
 				<div>Difficulty: <input ng-model="search.difficulties"></div>
 			</div>
 			<div class="row" ng-repeat = "song in listCtr.songs | filter:search:strict">
-				<div class="col-md-1">{{song.version}}</div>
+				<div class="col-md-2">{{song.version}}</div>
 				<div class="col-md-1">{{song.type}}</div>
 				<div class="col-md-1">{{song.bpm}}</div>
-				<div class="col-md-3">{{song.artist}}</div>
-				<div class="col-md-3">{{song.title}}</div>
-				<div class="col-md-3">{{song.difficulties}}</div>
+				<div class="col-md-2">{{song.artist}}</div>
+				<div class="col-md-2">{{song.title}}</div>
+				<div class="col-md-4">{{song.difficulties}}</div>
 			</div>
 		</div>
 	</body>
